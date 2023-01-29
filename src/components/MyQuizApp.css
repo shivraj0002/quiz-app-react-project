@@ -1,0 +1,42 @@
+.heading {
+  text-align: center;
+  font-weight: bold;
+}
+.start {
+  width: 100vw;
+}
+.score {
+  width: 90%;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(220, 133, 66);
+  margin-bottom: 150px;
+}
+.start-btn {
+  width: 350px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgb(225, 178, 106);
+}
+.questionContainer {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.question {
+  height: 150px;
+  min-width: 300px;
+  background-color: rgb(183, 17, 131);
+}
+.questionOpt {
+  background-color: rgb(225, 178, 106);
+  margin: 10px;
+  padding: 5px;
+}
+.submitBtn {
+  background-color: green;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}

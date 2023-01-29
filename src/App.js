@@ -1,24 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import QuizApp from './components/QuizApp';
+import MyQuizApp from './components/MyQuizApp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <QuizApp /> */}
+      <MyQuizApp />  {/*  this app have logic that mentioned in your project */}
+
+    </>
   );
 }
 
